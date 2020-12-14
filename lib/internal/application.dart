@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:giphy_app/view/giphy_search.dart';
+import 'package:giphy_app/presentation/giphy_search.dart';
 
 class Application extends StatelessWidget {
   @override
