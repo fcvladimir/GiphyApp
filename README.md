@@ -1,16 +1,17 @@
-# giphy_app
+# GiphyApp
 
-A new Flutter application.
+flutter-приложение с использованием идей чистой архитектуры.
 
-## Getting Started
+![alt text](https://hsto.org/getpro/habr/upload_files/ddc/ac6/c39/ddcac6c39c41fb948b7d470d1d74820e.png)
 
-This project is a starting point for a Flutter application.
+    data - слой работы с данными. На этом уровне, например, описываем работу с внешним API.
 
-A few resources to get you started if this is your first Flutter project:
+    domain - слой бизнес-логики.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+    internal - слой приложения. На этом уровне происходит внедрение зависимостей.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+    presentation - слой представления. На этом уровне описываем UI приложения.
+
+ ### TODO
+    - unit-tests
+    - pagination
